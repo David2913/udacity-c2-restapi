@@ -1,14 +1,4 @@
 export const config = {
-  // "dev": {
-  //   "username": "udagramzaratedev",
-  //   "password": "password",
-  //   "database": "udagramzaratedev",
-  //   "host": "udagramzaratedev.crscnrqgttdm.us-east-1.rds.amazonaws.com",
-  //   "dialect": "postgres",
-  //   "aws_region": "us-east-1",
-  //   "aws_profile": "udacity",
-  //   "aws_media_bucket": "udagram-zarate-dev"
-  // },
   "dev": {
     "username": process.env.POSTGRESS_USERNAME,
     "password": process.env.POSTGRESS_PASSWORD,
